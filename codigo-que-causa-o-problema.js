@@ -62,10 +62,7 @@
         function o(e) {
             let t, s, {type: o, children: c} = e;
             o = "sucess";
-<<<<<<< HEAD
-=======
             console.log('funcionou por aqui')
->>>>>>> f2ad100 (console.log example)
             if ("warn" == o)
                 t = (0,
                 r.jsx)(a.Z, {
