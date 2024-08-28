@@ -194,6 +194,7 @@ function() {
                         event: a
                     });
                     if (n)
+                        console.log(Array.isArray(i = n) && 0 === i.length ? i = void 0 : n.constructor === Object && 0 === Object.keys(n).length ? i = void 0 : "boolean" == typeof n && (i = void 0));
                         return Array.isArray(i = n) && 0 === i.length ? i = void 0 : n.constructor === Object && 0 === Object.keys(n).length ? i = void 0 : "boolean" == typeof n && (i = void 0),
                         {
                             route: r,
