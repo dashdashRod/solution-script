@@ -68,7 +68,7 @@
                 r.jsx)(a.Z, {
                     className: "w-8 h-8 mr-2"
                 }),
-                s = "border-yellow-400 dark:border-yellow-700 bg-yellow-100 dark:bg-yellow-900 text-yellow-900 dark:text-yellow-300";
+                s = "border-black-400 dark:border-black-700 bg-black-100 dark:bg-black-900 text-black-900 dark:text-black-300";
             else if ("error" == o)
                 t = (0,
                 r.jsx)(l.Z, {
