@@ -2233,6 +2233,8 @@
             "kr" == L.country && (W = !0),
             (null === (i = L.mu_comics) || void 0 === i ? void 0 : null === (s = i.mu_comic_publishers) || void 0 === s ? void 0 : s.length) > 0 && (null === (c = L.mu_comics) || void 0 === c ? void 0 : c.mu_comic_publishers.some(e=>["kadokawa", "shueisha", "kodansha", "shogakukan", "viz", "00-shu-cream-pop", "houbunsha", "mag-garden"].includes(e.mu_publishers.slug))) && (W = !0);
             let X = !1;
+            console.log('aqui que eh o negoico');
+            console.log(L);
             return ((L.md_comic_md_genres.some(e=>"incest" == e.md_genres.slug) || !1 == L.adsense) && (X = !0),
             "erotica" != L.content_rating || !E || B || (null === (m = G.data) || void 0 === m ? void 0 : null === (d = m.info) || void 0 === d ? void 0 : d.accept_erotic_content)) ? (0,
             r.jsxs)(r.Fragment, {
