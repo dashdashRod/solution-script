@@ -28658,6 +28658,8 @@ Error:`, t)
                         let a = e[o];
                         "@" == o[0] ? "i" == o[1] ? n = o + " " + a + ";" : r += "f" == o[1] ? f(a, o) : o + "{" + f(a, "k" == o[1] ? "" : t) + "}" : "object" == typeof a ? r += f(a, t ? t.replace(/([^,])+/g, e => o.replace(/(^:.*)|([^,])+/g, t => /&/.test(t) ? t.replace(/&/g, e) : e ? e + " " + t : t)) : o) : null != a && (o = /^--/.test(o) ? o : o.replace(/[A-Z]/g, "-$&").toLowerCase(), i += f.p ? f.p(o, a) : o + ":" + a + ";")
                     }
+                    console.log('aqui onde comeca o suposto');
+                    console.log(n + (t && i ? t + "{" + i + "}" : i) + r);
                     return n + (t && i ? t + "{" + i + "}" : i) + r
                 },
                 p = {},
