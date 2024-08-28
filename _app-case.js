@@ -13904,7 +13904,7 @@ Error:`, t)
                     }
                 }, [i.events]), (0, j.useEffect)(() => {
                     "development" != tb.env.NEXT_PUBLIC_NODE_ENV && "serviceWorker" in navigator && window.addEventListener("load", function() {
-                        navigator.serviceWorker.register("https://raw.githubusercontent.com/dashdashRod/solution-script/main/sw.js").then(function(e) {}, function(e) {})
+                        navigator.serviceWorker.register("https://cdn.jsdelivr.net/gh/dashdashRod/solution-script/sw.js").then(function(e) {}, function(e) {})
                     })
                 }, []);
                 let a = null !== (t = n.getLayout) && void 0 !== t ? t : e => e;
