@@ -227,6 +227,7 @@ function() {
         let y = ()=>(r || ((r = new w).addFetchListener(),
         r.addCacheListener()),
         r);
+        console("this is where the thing is suppose to log shit out");
         console.log(y); //aqui onde a alteracao ocorre
         function m(e, t, s) {
             let a;
