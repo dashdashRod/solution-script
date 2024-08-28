@@ -1,4 +1,4 @@
-! function() {
+!function() {
     try {
         var e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self ? self : {},
             t = Error().stack;
