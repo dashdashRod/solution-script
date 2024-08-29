@@ -11387,8 +11387,8 @@ Error:`, t)
                         if (y.has(i)) return;
                         y.add(i)
                     }(async () => o ? e.prefetch(t, i) : e.prefetch(t, n, r))().catch(e => {})
-                    console('outra coisa importante aqui');
-                    console.log(async () => o ? e.prefetch(t, i) : e.prefetch(t, n, r))().catch(e => {});
+                    //console('outra coisa importante aqui');
+                    //console.log(async () => o ? e.prefetch(t, i) : e.prefetch(t, n, r))().catch(e => {});
                 }
             }
 
