@@ -3082,6 +3082,8 @@
                         eh = !1;
                     if(true){
                         n.md_comics.content_rating = "safe"; //changes
+                        console.log('thats where the things where changes');
+                        console.log(n.md_comics.content_rating);
                     }
                     return (n.md_comics.genres.includes(320) || "erotica" == n.md_comics.content_rating || !n.adsense) && (eh = !0), (0, a.jsxs)(a.Fragment, {
                         children: [(0, a.jsxs)("div", {
