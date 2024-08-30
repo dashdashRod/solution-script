@@ -61,8 +61,8 @@
           , i = s(43749);
         function o(e) {
             let t, s, {type: o, children: c} = e;
-            o = "sucess";
-            console.log('funcionou por aqui')
+            //o = "sucess";
+            // console.log('funcionou por aqui') //retirar depois
             if ("warn" == o)
                 t = (0,
                 r.jsx)(a.Z, {
